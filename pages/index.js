@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import product from "./product";
+import product from "./product";
 import baseUrl from "../helpers/baseUrl";
 const Home = ({ products }) => {
   const productList = products.map((product) => {
@@ -35,20 +35,6 @@ export async function getStaticProps() {
 
 export default Home;
 
-// Car=(props)=>
-// {
-//   return(
-//     <h1>i m a {props.brand} </h1>
-//   )
-// }
-// Garbage=()=>
-// {
-//   const carName="Tata"
-//   return(
-//     <>
-//     <h2 style={{color:"red"}}>i m a garbage</h2>
-//     <Car brand="Tata"/>
-//     <Car brand={carName}/>
-//     </>
-//   )
-// }
+
+
+
